@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    display: flex;
+}
+.pag {
+    margin: 200px auto;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.pag-num,
+.pag-arr {
+    cursor: pointer;
+}
+.pag-arr {
+    color: green;
+    display: block;
+    padding: 1.6rem 1.8rem;
+    border: solid 0.1rem green;
+    border-radius: 50%;
+}
+.pag-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem; height: 4rem;
+    border: solid 0.1rem rgba(0, 65, 0, 0);
+    border-radius: 50%;
+}
+.pag-num_selected,
+.pag-num:hover, 
+.pag-arr:hover {
+    color: white;
+    background-color: green;
+    border-color:  rgb(0, 65, 0);
+}
